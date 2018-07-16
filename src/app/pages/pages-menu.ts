@@ -6,10 +6,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'nb-home',
     link: '/pages/dashboard',
     home: true,
-  },
+  },  
   {
-    title: 'FEATURES',
-    group: true,
+    title: 'Orden de Compra',
+    icon: 'nb-compose',
+    children: [
+      {
+        title: 'Orden de Compra',
+        link: '/pages/ordenCompra',
+      },      
+    ],
   },
   {
     title: 'Auth',

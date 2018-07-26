@@ -26,10 +26,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/auth/login',
       },
       {
-        title: 'Register',
-        link: '/auth/register',
-      },
-      {
         title: 'Request Password',
         link: '/auth/request-password',
       },

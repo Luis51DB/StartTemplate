@@ -16,23 +16,5 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/pages/ordenCompra',
       },      
     ],
-  },
-  {
-    title: 'Auth',
-    icon: 'nb-locked',
-    children: [
-      {
-        title: 'Login',
-        link: '/auth/login',
-      },
-      {
-        title: 'Request Password',
-        link: '/auth/request-password',
-      },
-      {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
-      },
-    ],
-  },
+  },  
 ];

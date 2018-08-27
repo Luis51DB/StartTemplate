@@ -6,7 +6,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'nb-home',
     link: '/pages/dashboard',
     home: true,
-  },  
+  },
   {
     title: 'Orden de Compra',
     icon: 'nb-compose',
@@ -14,7 +14,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Orden de Compra',
         link: '/pages/ordenCompra',
-      },      
+      },
     ],
-  },  
+  },
 ];

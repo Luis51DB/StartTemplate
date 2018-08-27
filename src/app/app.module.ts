@@ -64,7 +64,7 @@ const formSetting: any = {
         }),
       ],
       forms: {
-        login: formSetting,        
+        login: formSetting,
         requestPassword: formSetting,
         resetPassword: formSetting,
         logout: {

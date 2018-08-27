@@ -4,7 +4,7 @@ import { NbAuthService } from '@nebular/auth';
 import { tap } from 'rxjs/operators';
 
 @Injectable()
-export class AuthGuard implements CanActivate { 
+export class AuthGuard implements CanActivate {
     constructor(private authService: NbAuthService, private router: Router) {
     }
     canActivate() {
@@ -18,3 +18,4 @@ export class AuthGuard implements CanActivate {
           );
     }
   }
+  
